@@ -134,3 +134,4 @@ C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.d
 C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\API_1.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\API_1.sourcelink.json

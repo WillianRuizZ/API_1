@@ -1,31 +1,34 @@
 using Microsoft.AspNetCore.Mvc;
 
-
-namespace API_1.Data;
-[Route("api/stock")]
-[ApiController]
-public class StockController : ControllerBase
+namespace API_1.Data
 {
-  private readonly ApplicationDBContext _context;
-  public StockController(ApplicationDBContext context)
-  {
-  }
-
-  [HttpGet]
-  public IActionResult GetAll()
-  {
-    var stocks = _context.Stocks.ToList();
-    return Ok(stocks);
-  }
-  [HttpGet("{id}")]
-  public IActionResult GetById([FromRoute] int id)
-  {
-    var stock = _context.Stocks.Find(id);
-    if (stock == null)
+    [Route("api/stock")]
+    [ApiController]
+    public class StockController : ControllerBase
     {
-      return NotFound();
-    }
-    return Ok(stock);
-  }
+        private readonly ApplicationDBContext _context;
 
+        public StockController(ApplicationDBContext context)
+        {
+            _context = context; // Asignar el contexto aquí
+        }
+
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            var stocks = _context.Stocks.ToList(); // Ahora esto no debería lanzar NullReferenceException
+            return Ok(stocks);
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult GetById([FromRoute] int id)
+        {
+            var stock = _context.Stocks.Find(id);
+            if (stock == null)
+            {
+                return NotFound();
+            }
+            return Ok(stock);
+        }
+    }
 }

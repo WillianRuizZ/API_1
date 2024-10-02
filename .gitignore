@@ -1,0 +1,6 @@
+# Ignorar archivos de caché
+bin/
+obj/
+*.user
+*.suo
+*.sln.ide
