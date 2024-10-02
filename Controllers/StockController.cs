@@ -1,3 +1,5 @@
+
+using API_1.Mappers;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API_1.Data
@@ -16,7 +18,9 @@ namespace API_1.Data
         [HttpGet]
         public IActionResult GetAll()
         {
-            var stocks = _context.Stocks.ToList(); // Ahora esto no debería lanzar NullReferenceException
+            var stocks = _context.Stocks.ToList()
+                .Select(stock => stock.ToStockDto()); // Ahora esto no debería lanzar NullReferenceException
+
             return Ok(stocks);
         }
 
