@@ -1,23 +1,15 @@
-# Visual Studio
-.vs/
-*.suo
-*.user
-*.userosscache
-*.sln.ide
+# Ignorar carpetas de compilación
+bin/
+obj/
 
-# Build results
-[Dd]ebug/
-[Rr]elease/
-[Bb]in/
-[Oo]bj/
-
-# Visual Studio Code
-.vscode/
-
-# Rider
-.idea/
-
-# Otros archivos generados por .NET
+# Ignorar archivos de salida
 *.exe
 *.dll
 *.pdb
+
+# Ignorar archivos de configuración del entorno de desarrollo
+*.user
+*.suo
+
+# Ignorar archivos de configuración de Visual Studio Code
+.vscode/
