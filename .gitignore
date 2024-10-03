@@ -1,6 +1,23 @@
-# Ignorar archivos de caché
-bin/
-obj/
-*.user
+# Visual Studio
+.vs/
 *.suo
+*.user
+*.userosscache
 *.sln.ide
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Otros archivos generados por .NET
+*.exe
+*.dll
+*.pdb
