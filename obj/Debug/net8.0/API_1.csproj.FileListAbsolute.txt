@@ -28,9 +28,13 @@ C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.
 C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Microsoft.OpenApi.dll
 C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\System.CodeDom.dll
 C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -114,7 +118,9 @@ C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\API_1.GeneratedMSBuildEditorConf
 C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\API_1.AssemblyInfoInputs.cache
 C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\API_1.AssemblyInfo.cs
 C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\API_1.csproj.CoreCompileInputs.cache
+C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\API_1.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\API_1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\API_1.sourcelink.json
 C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\staticwebassets\msbuild.API_1.Microsoft.AspNetCore.StaticWebAssets.props
@@ -129,9 +135,3 @@ C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\refint\API_1.dll
 C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\API_1.pdb
 C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\API_1.genruntimeconfig.cache
 C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\ref\API_1.dll
-C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\Willian\Desktop\API_1\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\API_1.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Willian\Desktop\API_1\obj\Debug\net8.0\API_1.sourcelink.json
