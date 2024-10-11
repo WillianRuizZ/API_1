@@ -1,4 +1,6 @@
 using API_1.Data;
+using API_1.Interfaces;
+using API_1.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
@@ -33,6 +35,7 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+builder.Services.AddScoped<IStockRepository, StockRepository>();
 var app = builder.Build();
 
 // Configurar la tubería de solicitudes HTTP

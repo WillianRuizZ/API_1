@@ -1,5 +1,6 @@
 
 using API_1.Dtos.Stock;
+using API_1.Interfaces;
 using API_1.Mappers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,19 +12,24 @@ namespace API_1.Data;
 public class StockController : ControllerBase
 {
     private readonly ApplicationDBContext _context;
+    private readonly IStockRepository _stockRepo;
 
-    public StockController(ApplicationDBContext context)
+
+    //constructor
+    public StockController(ApplicationDBContext context, IStockRepository stockRepo)
     {
         _context = context; // Asignar el contexto aquí
+
+        // Crear una nueva instancia de la clase StockRepository
+        _stockRepo = stockRepo;
     }
 
     [HttpGet]
     public async Task<IActionResult> GetAll()
     {
-        var stocks = await _context.Stocks.ToListAsync();
+        var stocks = await _stockRepo.GetAllAsync();
 
-        var stocksDto = stocks
-            .Select(stock => stock.ToStockDto()); // Ahora esto no debería lanzar NullReferenceException
+        var stocksDto = stocks.Select(x => x.ToStockDto());
 
         return Ok(stocks);
     }
@@ -51,7 +57,7 @@ public class StockController : ControllerBase
     [HttpPut("{id}")]
     public async Task<IActionResult> Update([FromRoute] int id, [FromBody] UpdateStockRequestDto stockDto)
     {
-        var stock =await _context.Stocks.FirstOrDefaultAsync(x => x.Id == id);
+        var stock = await _context.Stocks.FirstOrDefaultAsync(x => x.Id == id);
         if (stock == null)
         {
             return NotFound();
@@ -69,7 +75,7 @@ public class StockController : ControllerBase
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete([FromRoute] int id)
     {
-        var stock =await _context.Stocks.FirstOrDefaultAsync(x => x.Id == id);
+        var stock = await _context.Stocks.FirstOrDefaultAsync(x => x.Id == id);
         if (stock == null)
         {
             return NotFound();
