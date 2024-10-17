@@ -10,6 +10,31 @@ obj/
 # Ignorar archivos de configuración del entorno de desarrollo
 *.user
 *.suo
+*.userosscache
+*.sln.docstates
 
 # Ignorar archivos de configuración de Visual Studio Code
 .vscode/
+.vscode-test/
+
+# Ignorar paquetes de NuGet
+*.nupkg
+# Ignorar caché de paquetes
+packages/
+.nuget/
+# Ignorar lockfile de NuGet
+project.lock.json
+project.fragment.lock.json
+
+# Ignorar caché de archivos de análisis estático (Sonar)
+.sonarqube/
+
+# Ignorar archivos generados por Rider
+.idea/
+
+# Ignorar archivos de entorno local
+local.settings.json
+
+# Ignorar caché de dependencias
+*.log
+*.tmp
