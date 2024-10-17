@@ -1,10 +1,9 @@
 ﻿
 using API_1.Models;
 
-namespace API_1.Interfaces
+namespace API_1.Interfaces;
+
+public interface IStockRepository
 {
-    public interface IStockRepository
-    {
-        Task<List<Stock>> GetAllAsync();
-    }
+    Task<List<Stock>> GetAllAsync();
 }

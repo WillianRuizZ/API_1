@@ -1,6 +1,5 @@
-
-using API_1.Dtos.Stock;
 using API_1.Interfaces;
+using API_1.Interfaces.Dtos.Stock;
 using API_1.Mappers;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
