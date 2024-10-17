@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Willian\\Desktop\\API_1\\API_1.csproj": {}
+    "c:\\Users\\Willian\\Desktop\\API_1\\API_1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Willian\\Desktop\\API_1\\API_1.csproj": {
+    "c:\\Users\\Willian\\Desktop\\API_1\\API_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Willian\\Desktop\\API_1\\API_1.csproj",
+        "projectUniqueName": "c:\\Users\\Willian\\Desktop\\API_1\\API_1.csproj",
         "projectName": "API_1",
-        "projectPath": "C:\\Users\\Willian\\Desktop\\API_1\\API_1.csproj",
+        "projectPath": "c:\\Users\\Willian\\Desktop\\API_1\\API_1.csproj",
         "packagesPath": "C:\\Users\\Willian\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Willian\\Desktop\\API_1\\obj\\",
+        "outputPath": "c:\\Users\\Willian\\Desktop\\API_1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Willian\\AppData\\Roaming\\NuGet\\NuGet.Config",
