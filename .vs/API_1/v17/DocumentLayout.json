@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Willian\\Desktop\\API_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|c:\\users\\willian\\desktop\\api_1\\migrations\\20241002013734_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|solutionrelative:migrations\\20241002013734_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|c:\\users\\willian\\desktop\\api_1\\repository\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|solutionrelative:repository\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|c:\\users\\willian\\desktop\\api_1\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|solutionrelative:migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|c:\\users\\willian\\desktop\\api_1\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|solutionrelative:controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|c:\\users\\willian\\desktop\\api_1\\mappers\\stockmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|solutionrelative:mappers\\stockmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|c:\\users\\willian\\desktop\\api_1\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|solutionrelative:models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|c:\\users\\willian\\desktop\\api_1\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|solutionrelative:models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|c:\\users\\willian\\desktop\\api_1\\interfaces\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|solutionrelative:interfaces\\interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|c:\\users\\willian\\desktop\\api_1\\repository\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{092E8214-C347-485B-903A-06FBC8098028}|API_1.csproj|solutionrelative:repository\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,60 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApplicationDBContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Willian\\Desktop\\API_1\\Migrations\\ApplicationDBContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\ApplicationDBContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Willian\\Desktop\\API_1\\Migrations\\ApplicationDBContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\ApplicationDBContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T02:09:18.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241002013734_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Willian\\Desktop\\API_1\\Migrations\\20241002013734_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241002013734_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Willian\\Desktop\\API_1\\Migrations\\20241002013734_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20241002013734_InitialCreate.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T02:09:18.206Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StockMappers.cs",
-              "DocumentMoniker": "C:\\Users\\Willian\\Desktop\\API_1\\Mappers\\StockMappers.cs",
-              "RelativeDocumentMoniker": "Mappers\\StockMappers.cs",
-              "ToolTip": "C:\\Users\\Willian\\Desktop\\API_1\\Mappers\\StockMappers.cs",
-              "RelativeToolTip": "Mappers\\StockMappers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T02:09:13.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Interface.cs",
-              "DocumentMoniker": "C:\\Users\\Willian\\Desktop\\API_1\\Interfaces\\Interface.cs",
-              "RelativeDocumentMoniker": "Interfaces\\Interface.cs",
-              "ToolTip": "C:\\Users\\Willian\\Desktop\\API_1\\Interfaces\\Interface.cs",
-              "RelativeToolTip": "Interfaces\\Interface.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T02:09:03.563Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -94,15 +42,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\Users\\Willian\\Desktop\\API_1\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StockController.cs",
+              "ToolTip": "C:\\Users\\Willian\\Desktop\\API_1\\Controllers\\StockController.cs",
+              "RelativeToolTip": "Controllers\\StockController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAEwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:31:10.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "StockRepository.cs",
               "DocumentMoniker": "C:\\Users\\Willian\\Desktop\\API_1\\Repository\\StockRepository.cs",
               "RelativeDocumentMoniker": "Repository\\StockRepository.cs",
               "ToolTip": "C:\\Users\\Willian\\Desktop\\API_1\\Repository\\StockRepository.cs",
               "RelativeToolTip": "Repository\\StockRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAzwBcAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-10T23:51:43.366Z",
+              "WhenOpened": "2024-10-17T19:20:56.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\Users\\Willian\\Desktop\\API_1\\Models\\Comment.cs",
+              "RelativeDocumentMoniker": "Models\\Comment.cs",
+              "ToolTip": "C:\\Users\\Willian\\Desktop\\API_1\\Models\\Comment.cs",
+              "RelativeToolTip": "Models\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:16:55.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\Willian\\Desktop\\API_1\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "Models\\Stock.cs",
+              "ToolTip": "C:\\Users\\Willian\\Desktop\\API_1\\Models\\Stock.cs",
+              "RelativeToolTip": "Models\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:16:51.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Interface.cs",
+              "DocumentMoniker": "C:\\Users\\Willian\\Desktop\\API_1\\Interfaces\\Interface.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Interface.cs",
+              "ToolTip": "C:\\Users\\Willian\\Desktop\\API_1\\Interfaces\\Interface.cs",
+              "RelativeToolTip": "Interfaces\\Interface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T19:15:45.744Z",
               "EditorCaption": ""
             }
           ]
