@@ -36,6 +36,7 @@ builder.Services.AddSwaggerGen(options =>
 });
 
 builder.Services.AddScoped<IStockRepository, StockRepository>();
+builder.Services.AddScoped<ICommentRepository, CommentRepository>(); 
 var app = builder.Build();
 
 // Configurar la tubería de solicitudes HTTP
